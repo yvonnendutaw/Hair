@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yvonne.hair.AwkwardStage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/awkward1"
+        android:layout_marginBottom="134dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The awkward stage is where we can&apos;t really define the hair as being long. The good thing about this stage is that you can style it as often and wi==as wildly as you&apos;d want!"
+        android:id="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:background="#951b1b"
+        android:textColor="#fff"
+        android:elevation="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Awkward Stage"
+        android:id="@+id/textView6"
+        android:layout_above="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+</RelativeLayout>

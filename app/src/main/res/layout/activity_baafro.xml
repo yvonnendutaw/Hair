@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yvonne.hair.BAAfro"
+    android:background="#861919">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/Baa"
+        android:layout_marginBottom="290dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ocurreret efficiantur ea usu, nam persius civibus salutandi ad. Sit praesent philosophia no, quem probatus consetetur vis ei. Dicit eloquentiam te mea. Noster repudiare euripidis sea id, quis labore an qui. Consequat dissentiunt consectetuer te quo, exerci primis corpora pro ei. Tantas eripuit has cu, ut nec eleifend definitiones, per facete fuisset commune cu. Quo sanctus deserunt tincidunt ut, ius alii consulatu te, his labore epicuri dignissim in. "
+        android:id="@+id/textView9"
+        android:background="#861111"
+        android:textColor="#fff"
+        android:elevation="30dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Big Ass Afro"
+        android:id="@+id/textView10"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:layout_above="@+id/textView9"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

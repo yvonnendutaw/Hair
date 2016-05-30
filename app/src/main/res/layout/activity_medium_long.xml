@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yvonne.hair.MediumLong"
+    android:background="#861919">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/image5"
+        android:layout_marginBottom="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medium Long Stage"
+        android:id="@+id/textView7"
+        android:layout_marginBottom="145dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, vix id veri postea dissentias. Quot blandit per ex, tantas sanctus electram mel ea. Vis noluisse quaestio ut. Veri deleniti cu duo, sit an partem alterum euripidis, nec vidit consulatu vituperatoribus id."
+        android:id="@+id/textView8"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp"
+        android:textAlignment="center"
+        android:elevation="30dp"
+        android:background="#862121"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+</RelativeLayout>
