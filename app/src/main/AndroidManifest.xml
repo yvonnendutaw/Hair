@@ -29,11 +29,11 @@
             <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
         </activity>
-        <activity android:name=".MainAcivity">
+        <activity android:name=".MainActivity">
         <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
+            <action android:name="android.intent.action.MAIN00"/>
 
-            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.DEFAULT00" />
         </intent-filter>
         </activity>
         <activity android:name=".Twa">
@@ -57,7 +57,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".BAAfro">
+        <activity android:name=".Baafro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
